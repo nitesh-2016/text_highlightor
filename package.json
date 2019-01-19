@@ -1,0 +1,17 @@
+{
+  "name": "texthighlightor",
+  "version": "1.0.0",
+  "description": "TextHighlightor application which allows user to select a text and remember the decision.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitesh Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.12",
+    "morgan": "^1.9.1",
+    "wordpos": "^1.2.0"
+  }
+}

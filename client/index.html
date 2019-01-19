@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Text Highlightor</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="appController.js"></script>
+    <script type="text/javascript" src="appService.js"></script>
+</head>
+<div ng-app="myApp" class="container" ng-controller="appController" align="center">
+    <div class="col-md-6">
+        <h3>Cassini reveals new details on Saturn’s rings.</h3>
+        <p ng-bind-html="paragraph" ng-mouseup="selectText()"></p>
+    </div>
+</div>
+</html>
